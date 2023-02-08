@@ -295,7 +295,7 @@ class GoogleDriveHelper:
         # File body description
         file_metadata = {
             'name': file_name,
-            'description': f'{GD_INFO}',
+            'description': '',
             'mimeType': mime_type,
         }
         if dest_id:
